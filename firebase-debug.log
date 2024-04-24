@@ -1,0 +1,60 @@
+[debug] [2023-11-15T16:09:37.397Z] ----------------------------------------------------------------------
+[debug] [2023-11-15T16:09:37.399Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ajrne\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-15T16:09:37.399Z] CLI Version:   12.9.0
+[debug] [2023-11-15T16:09:37.400Z] Platform:      win32
+[debug] [2023-11-15T16:09:37.400Z] Node Version:  v16.18.0
+[debug] [2023-11-15T16:09:37.401Z] Time:          Thu Nov 16 2023 00:09:37 GMT+0800 (Singapore Standard Time)
+[debug] [2023-11-15T16:09:37.401Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-15T16:09:37.478Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-15T16:09:37.479Z] > authorizing via signed-in user (ajr.arnesto.dev@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Work\VSCode Projects\Website\Commissions\Vulcanizing and Motor Repair Shop
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2023-11-15T16:09:43.511Z] setProjectAccount(E:\Work\VSCode Projects\Website\Commissions\Vulcanizing and Motor Repair Shop, ajr.arnesto.dev@gmail.com)
+[info] 
+[info] +  Using account: ajr.arnesto.dev@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-15T16:09:43.555Z] Using project from CLI flag: road-resq
+[debug] [2023-11-15T16:09:43.556Z] > refreshing access token with scopes: []
+[debug] [2023-11-15T16:09:43.558Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-11-15T16:09:43.558Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-15T16:09:43.793Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-11-15T16:09:43.794Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-15T16:09:43.833Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/road-resq [none]
+[debug] [2023-11-15T16:09:44.219Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/road-resq 200
+[debug] [2023-11-15T16:09:44.219Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/road-resq {"projectId":"road-resq","projectNumber":"294167437924","displayName":"Road ResQ","name":"projects/road-resq","resources":{"hostingSite":"road-resq","storageBucket":"road-resq.appspot.com","locationId":"asia-southeast1"},"state":"ACTIVE","etag":"1_46b91ce0-c3d9-4d4e-a174-dea8e63d1da6"}
+[info] i  Using project road-resq (Road ResQ) 
+[info] 
+=== Hosting Setup
+[debug] [2023-11-15T16:09:44.260Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/road-resq [none]
+[debug] [2023-11-15T16:09:44.641Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/road-resq 200
+[debug] [2023-11-15T16:09:44.641Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/road-resq {"projectId":"road-resq","projectNumber":"294167437924","displayName":"Road ResQ","name":"projects/road-resq","resources":{"hostingSite":"road-resq","storageBucket":"road-resq.appspot.com","locationId":"asia-southeast1"},"state":"ACTIVE","etag":"1_46b91ce0-c3d9-4d4e-a174-dea8e63d1da6"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
